@@ -7,6 +7,9 @@ import datetime
 
 # Initialize the speech engine
 engine = pyttsx3.init()
+voices =
+engine.getProperty('voices')
+engine.getProperty('voice',voices [1].id) # Used female voice
 engine.setProperty("rate", 150)  # Adjust speaking speed
 engine.setProperty("volume", 0.9)  # Adjust volume
 
