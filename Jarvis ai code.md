@@ -4,7 +4,8 @@ import speech_recognition as sr
 import webbrowser
 import os
 import datetime
-
+import pyjokes
+import pywhatkit
 # Initialize the speech engine
 engine = pyttsx3.init()
 voices =
