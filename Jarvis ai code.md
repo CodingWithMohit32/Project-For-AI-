@@ -1,3 +1,4 @@
+# The things should be imported
 import pyttsx3
 import speech_recognition as sr
 import webbrowser
